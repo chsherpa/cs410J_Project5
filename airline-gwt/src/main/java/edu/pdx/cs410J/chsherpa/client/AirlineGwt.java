@@ -15,6 +15,7 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 import com.google.gwt.user.datepicker.client.DateBox;
+import com.google.gwt.user.datepicker.client.DatePicker;
 
 import java.util.Collection;
 import java.util.Date;
@@ -122,6 +123,7 @@ public class AirlineGwt implements EntryPoint {
     }
 
   }
+
   private void addTextFields( VerticalPanel panel )
   {
     String placeHolder = new String("Enter in values here");
@@ -134,9 +136,27 @@ public class AirlineGwt implements EntryPoint {
 
     DateSelect departure = new DateSelect("Departure", panel);
 
-    /*
+    InputTextBox airlineDestination = new InputTextBox(
+        "Flight Destination",placeHolder, panel );
+
+    DateTimeFormat dateFormat = DateTimeFormat.getFormat("MM/dd/yyyy");
     DateBox datePicker = new DateBox();
-    final Label text = new Label("datebox");
+    datePicker.setFormat(new DateBox.DefaultFormat(dateFormat));
+    final Label text = new Label("\ndatebox");
+    //DatePicker datePicker = new DatePicker( );
+
+    panel.add(text);
+    panel.add(datePicker);
+
+    final DateBox.Format timeFormat = new DateBox.DefaultFormat(DateTimeFormat.getFormat(DateTimeFormat.PredefinedFormat.TIME_SHORT));
+    DateBox begin = new DateBox();
+    begin.setFormat(timeFormat);
+    begin.getDatePicker().setVisible(false);
+    final Label text2 = new Label("\nTimeBox");
+
+    panel.add(text2);
+    panel.add(begin);
+
 
     datePicker.addValueChangeHandler(new ValueChangeHandler<Date>() {
       @Override
@@ -144,13 +164,11 @@ public class AirlineGwt implements EntryPoint {
       {
         Date date = valueChangeEvent.getValue();
         String dateString = DateTimeFormat.getFormat("MM/dd/yyyy").format(date);
-        text.setText(dateString);
+
+//        text.setText(dateString);
       }
     });
 
-    panel.add(text);
-    panel.add(datePicker);
-    */
 
 
   }

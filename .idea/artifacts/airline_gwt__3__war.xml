@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="airline-gwt (3):war">
+    <output-path>$PROJECT_DIR$/airline-gwt/target/airline/META-INF/maven/edu.pdx.cs410J.chsherpa/airline-gwt/target</output-path>
+    <root id="archive" name="airline.war">
+      <element id="artifact" artifact-name="airline-gwt (3):war exploded" />
+    </root>
+  </artifact>
+</component>
