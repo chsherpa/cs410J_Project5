@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="Airline GWT Integration Tests" time="20.875" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.141-b16"/>
+    <property name="org.w3c.css.sac.parser" value="com.steadystate.css.parser.SACParserCSS3"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="surefire.reports" value="/home/chsherpa/CS410J/Proj5/airline-gwt/target/surefire-reports"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/chsherpa/CS410J/Proj5/airline-gwt"/>
+    <property name="java.runtime.version" value="1.8.0_141-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="gwt.args" value="-war /home/chsherpa/CS410J/Proj5/airline-gwt/target/www-test -logLevel INFO -devMode -nocheckAssertions -XclusterFunctions -XcheckCasts -XclassMetadata -XcodeSplitting -nodraftCompile -XinlineLiteralParameters -XoptimizeDataflow -XordinalizeEnums -XremoveDuplicateFunctions -noshowUi -sourceLevel 1.7 -testBeginTimeout 1 -testMethodTimeout 5 -Xtries 1 -noincremental -precompile simple -runStyle HtmlUnit:FF17"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.11.12-200.fc25.x86_64"/>
+    <property name="user.home" value="/home/chsherpa"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="chsherpa"/>
+    <property name="java.class.path" value="/home/chsherpa/CS410J/Proj5/airline-gwt/target/airline/WEB-INF/classes:/home/chsherpa/CS410J/Proj5/airline-gwt/src/main/java:/home/chsherpa/CS410J/Proj5/airline-gwt/target/generated-sources/annotations:/home/chsherpa/CS410J/Proj5/airline-gwt/src/test/java:/home/chsherpa/CS410J/Proj5/airline-gwt/src/it/java:/home/chsherpa/CS410J/Proj5/airline-gwt/target/generated-test-sources/test-annotations:/home/chsherpa/CS410J/Proj5/airline-gwt/src/test/resources:/home/chsherpa/CS410J/Proj5/airline-gwt/src/it/resources:/home/chsherpa/CS410J/Proj5/airline-gwt/target/test-classes:/home/chsherpa/.m2/repository/edu/pdx/cs410J/projects/Summer2017/projects-Summer2017.jar:/home/chsherpa/.m2/repository/edu/pdx/cs410J/projects/Summer2017/projects-Summer2017-sources.jar:/home/chsherpa/.m2/repository/com/google/guava/guava-gwt/18.0/guava-gwt-18.0.jar:/home/chsherpa/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/chsherpa/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/chsherpa/.m2/repository/edu/pdx/cs410J/examples/Summer2017/examples-Summer2017.jar:/home/chsherpa/.m2/repository/edu/pdx/cs410J/family/Summer2017/family-Summer2017.jar:/home/chsherpa/.m2/repository/javax/mail/javax.mail-api/1.5.5/javax.mail-api-1.5.5.jar:/home/chsherpa/.m2/repository/com/google/inject/guice/4.0-beta5/guice-4.0-beta5.jar:/home/chsherpa/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/chsherpa/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/chsherpa/.m2/repository/org/codehaus/groovy/groovy-all/2.4.4/groovy-all-2.4.4.jar:/home/chsherpa/.m2/repository/com/blueesoteric/gwt-syncproxy/0.5/gwt-syncproxy-0.5.jar:/home/chsherpa/.m2/repository/net/sourceforge/cobertura/cobertura-runtime/2.1.1/cobertura-runtime-2.1.1.pom:/home/chsherpa/.m2/repository/net/sourceforge/cobertura/cobertura/2.1.1/cobertura-2.1.1.jar:/home/chsherpa/.m2/repository/jaxen/jaxen/1.1.4/jaxen-1.1.4.jar:/home/chsherpa/.m2/repository/org/apache/ant/ant/1.8.3/ant-1.8.3.jar:/home/chsherpa/.m2/repository/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar:/home/chsherpa/.m2/repository/org/apache/ant/ant-junit/1.8.3/ant-junit-1.8.3.jar:/home/chsherpa/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/home/chsherpa/.m2/repository/org/mortbay/jetty/jetty/6.1.14/jetty-6.1.14.jar:/home/chsherpa/.m2/repository/org/mortbay/jetty/jetty-util/6.1.14/jetty-util-6.1.14.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/../lib/tools.jar:/home/chsherpa/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/chsherpa/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar:/home/chsherpa/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar:/home/chsherpa/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/home/chsherpa/.m2/repository/com/google/gwt/gwt-servlet/2.7.0/gwt-servlet-2.7.0.jar:/home/chsherpa/.m2/repository/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.jar:/home/chsherpa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/home/chsherpa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/home/chsherpa/.m2/repository/com/google/gwt/gwt-dev/2.7.0/gwt-dev-2.7.0.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/home/chsherpa/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/chsherpa/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/chsherpa/.m2/repository/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.jar:/home/chsherpa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/home/chsherpa/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/home/chsherpa/.m2/repository/com/google/gwt/gwt-dev/2.7.0/gwt-dev-2.7.0.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/home/chsherpa/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/home/chsherpa/.m2/repository/org/codehaus/mojo/gwt-maven-plugin/2.7.0/gwt-maven-plugin-2.7.0.jar:/home/chsherpa/.m2/repository/org/apache/maven/surefire/surefire-api/2.4.3/surefire-api-2.4.3.jar"/>
+    <property name="build.compiler" value="com.google.gwt.dev.shell.jetty.JettyLauncher$JDTCompiler16"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.mojo.gwt.test.MavenTestRunner edu.pdx.cs410J.chsherpa.client.AirlineGwtTestSuite"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="org.eclipse.jetty.xml.XmlParser.Validating" value="false"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.fc25.x86_64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="edu.pdx.cs410J.chsherpa.client.AirlineGwtIT" name="testClickingShowDeclaredExceptionButtonAlertsWithExpectedMessage" time="19.014"/>
+  <testcase classname="edu.pdx.cs410J.chsherpa.client.AirlineGwtIT" name="testClickingShowClientSideExceptionButtonAlertsWithExpectedMessage" time="0.594"/>
+  <testcase classname="edu.pdx.cs410J.chsherpa.client.AirlineGwtIT" name="testClickingShowAirlineButtonAlertsWithAirlineInformation" time="0.636"/>
+  <testcase classname="edu.pdx.cs410J.chsherpa.client.AirlineGwtIT" name="testClickingShowUndeclaredExceptionButtonAlertsWithExpectedMessage" time="0.615"/>
+</testsuite>
