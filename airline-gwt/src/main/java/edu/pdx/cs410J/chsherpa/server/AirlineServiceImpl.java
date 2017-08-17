@@ -10,6 +10,7 @@ import edu.pdx.cs410J.chsherpa.client.AirlineService;
  */
 public class AirlineServiceImpl extends RemoteServiceServlet implements AirlineService
 {
+  Airline airline = new Airline();
   @Override
   public Airline getAirline() {
     Airline airline = new Airline();
@@ -37,5 +38,10 @@ public class AirlineServiceImpl extends RemoteServiceServlet implements AirlineS
   protected void doUnexpectedFailure(Throwable unhandled) {
     unhandled.printStackTrace(System.err);
     super.doUnexpectedFailure(unhandled);
+  }
+
+  @Override
+  public void passAirline( Flight flight ){
+    airline.addFlight(flight);
   }
 }

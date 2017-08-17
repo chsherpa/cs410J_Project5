@@ -10,6 +10,7 @@ import com.google.gwt.event.logical.shared.ValueChangeEvent;
 import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.event.shared.UmbrellaException;
 import com.google.gwt.i18n.client.DateTimeFormat;
+import com.google.gwt.i18n.client.TimeZone;
 import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
@@ -18,6 +19,7 @@ import com.google.gwt.user.datepicker.client.DateBox;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -122,37 +124,232 @@ public class AirlineGwt implements EntryPoint {
     }
 
   }
+
   private void addTextFields( VerticalPanel panel )
   {
-    String placeHolder = new String("Enter in values here");
-    InputTextBox airlineName = new InputTextBox(
-      "Airline Name",placeHolder,panel );
-    InputTextBox airlineNumber = new InputTextBox(
-      "Flight Number",placeHolder, panel );
-    InputTextBox airlineSource = new InputTextBox(
-      "Flight Source",placeHolder, panel );
+    Date today = new Date();
+    DateTimeFormat dt = DateTimeFormat.getFormat("MM/dd/yyyy");
+    DateTimeFormat tf = DateTimeFormat.getFormat("hh:mm");
+    String dd = dt.format(today).toString();
+    String tt = tf.format(today, TimeZone.createTimeZone(0)).toString();
 
-    DateSelect departure = new DateSelect("Departure", panel);
+    //Window.alert(dtf.format(today, TimeZone.createTimeZone(0)));
+
+    final String placeHolder = new String("Enter in values here");
+    Label airlineNameLabel = new Label("\nAirline Name:");
+    TextBox airlineName = new TextBox();
+    airlineName.getElement().setAttribute("placeholder", placeHolder);
+
+    Label airlineNumberLabel = new Label("\nFlight Number:");
+    TextBox airlineNumber = new TextBox();
+    airlineNumber.getElement().setAttribute("placeholder", placeHolder);
+
+    Label airlineSourceLabel = new Label("\nFlight Source:");
+    TextBox airlineSource = new TextBox();
+    airlineSource.getElement().setAttribute("placeholder", placeHolder);
+
+    //Departure Date Stuff
+    Label airlineDepartDateLabel = new Label("\nFlight Date: ");
+    DateBox departDatePick = new DateBox();
+    departDatePick.getElement().setAttribute("placeholder", dd );
+    departDatePick.setFormat(new DateBox.DefaultFormat(dt));
 
     /*
-    DateBox datePicker = new DateBox();
-    final Label text = new Label("datebox");
-
-    datePicker.addValueChangeHandler(new ValueChangeHandler<Date>() {
+    departDatePick.addValueChangeHandler(new ValueChangeHandler<Date>() {
       @Override
       public void onValueChange(ValueChangeEvent<Date> valueChangeEvent)
       {
         Date date = valueChangeEvent.getValue();
         String dateString = DateTimeFormat.getFormat("MM/dd/yyyy").format(date);
-        text.setText(dateString);
       }
     });
-
-    panel.add(text);
-    panel.add(datePicker);
     */
 
+    final Label departTimePickLabel = new Label("\nTimeBox");
+    final DateBox.Format timeFormat = new DateBox.DefaultFormat(DateTimeFormat.getFormat(DateTimeFormat.PredefinedFormat.TIME_SHORT));
+    DateBox departTimePick = new DateBox();
+    departTimePick.setFormat(timeFormat);
+    departTimePick.getDatePicker().setVisible(false);
+    departTimePick.getElement().setAttribute("placeholder", tt );
+    departTimePick.setFormat(new DateBox.DefaultFormat(tf));
 
+    //Arrival Date Stuff
+    Label airlineDestinationLabel = new Label("\nFlight Destination:");
+    TextBox airlineDestination = new TextBox();
+    airlineDestination.getElement().setAttribute("placeholder", placeHolder );
+
+    Label airlineArriveDateLabel = new Label("\nFlight Date: ");
+    DateBox arriveDatePick = new DateBox();
+    arriveDatePick.getElement().setAttribute("placeholder", dd );
+    arriveDatePick.setFormat(new DateBox.DefaultFormat(dt));
+
+    final Label arriveTimePickLabel = new Label("\nTimeBox");
+    DateBox arriveTimePick = new DateBox();
+    arriveTimePick.setFormat(timeFormat);
+    arriveTimePick.getDatePicker().setVisible(false);
+    arriveTimePick.getElement().setAttribute("placeholder", tt );
+    arriveTimePick.setFormat(new DateBox.DefaultFormat(tf));
+
+    ListBox departHour = new ListBox();
+    for( int i= 1; i < 13; i++ )
+    {
+      String a = new Integer(i).toString();
+      if( a.length() < 2 )
+      {
+        departHour.addItem( "0"+a);
+      }
+      else
+      {
+        departHour.addItem(a);
+      }
+    }
+
+    ListBox departMin = new ListBox();
+    for( int i = 0; i < 60; i++ )
+    {
+      String a = new Integer(i).toString();
+      if( a.length() < 2 )
+      {
+        departMin.addItem( "0"+a);
+      }
+      else
+      {
+        departMin.addItem( a );
+      }
+    }
+
+    ListBox departAmpm = new ListBox();
+    departAmpm.addItem("AM");
+    departAmpm.addItem("PM");
+
+    ListBox arriveHour = new ListBox();
+    for( int i= 1; i < 13; i++ )
+    {
+      String a = new Integer(i).toString();
+      if( a.length() < 2 )
+      {
+        arriveHour.addItem( "0"+a);
+      }
+      else
+      {
+        arriveHour.addItem(a);
+      }
+    }
+
+    ListBox arriveMin = new ListBox();
+    for( int i = 0; i < 60; i++ )
+    {
+      String a = new Integer(i).toString();
+      if( a.length() < 2 )
+      {
+        arriveMin.addItem( "0"+a);
+      }
+      else
+      {
+        arriveMin.addItem( a );
+      }
+    }
+
+    ListBox arriveAmpm = new ListBox();
+    arriveAmpm.addItem("AM");
+    arriveAmpm.addItem("PM");
+
+    Label hourLabel = new Label("Hour");
+    Label minLabel = new Label("Min");
+    Label meridianLabel = new Label("AM/PM");
+
+    //Buttons for Submittal vs Search
+    Button submitButton = new Button("Submit");
+    Button searchButton = new Button("Search");
+
+
+    String departure = new String();
+    Grid departTime = new Grid(2,3);
+    departTime.setWidget(0,0,hourLabel);
+    departTime.setWidget(0,1,minLabel);
+    departTime.setWidget(0,2,meridianLabel);
+    departTime.setWidget(1,0,departHour);
+    departTime.setWidget(1,1,departMin);
+    departTime.setWidget(1,2,departAmpm);
+//    hour.getSelectedValue().toString();
+//    min.getSelectedValue().toString();
+
+    //SUBGRID for ARRIVE TIME
+    Grid arriveTime = new Grid(2,3);
+    arriveTime.setWidget(0,0,hourLabel);
+    arriveTime.setWidget(0,1,minLabel);
+    arriveTime.setWidget(0,2,meridianLabel);
+    arriveTime.setWidget(1,0,arriveHour);
+    arriveTime.setWidget(1,1,arriveMin);
+    arriveTime.setWidget(1,2,arriveAmpm);
+
+    //MAIN GRID
+    Grid grid = new Grid(13,3);
+
+    //Layout Pattern
+    grid.setWidget(0,0,airlineNameLabel);
+    grid.setWidget(0,1,airlineName);
+    grid.setWidget(2,0,airlineNumberLabel);
+    grid.setWidget(2,1,airlineNumber);
+
+    grid.setWidget(4,0,airlineSourceLabel);
+    grid.setWidget(4,1,airlineSource);
+    grid.setWidget(5,0,airlineDepartDateLabel);
+    grid.setWidget(5,1,departTimePickLabel);
+    grid.setWidget(6,0,departDatePick);
+    grid.setWidget(6,1,departTime);
+
+    grid.setWidget(9,0,airlineDestinationLabel);
+    grid.setWidget(9,1,airlineDestination);
+    grid.setWidget(10,0,airlineArriveDateLabel);
+    grid.setWidget(10,1,arriveTimePickLabel);
+    grid.setWidget(11,0,arriveDatePick);
+    grid.setWidget(11,1,arriveTime);
+
+    grid.setWidget(12,1,submitButton);
+    grid.setWidget(12,2,searchButton);
+
+    panel.add(grid);
+
+      /*
+        final String name = new String(airlineName.getText().toString());
+        final String number = new String(airlineNumber.getText().toString());
+        final String source = new String(airlineSource.getText().toString());
+        final String SourceTime = new String( departDatePick.getValue().toString()+" "
+                                        +departHour.getSelectedValue().toString() +":"
+                                        + departMin.getSelectedValue().toString()+" "+ departAmpm.getSelectedValue().toString());
+        final String dest = new String(airlineDestination.getText().toString());
+        final String ArriveTime = new String(arriveDatePick.getValue().toString()+" "
+                                       +arriveHour.getSelectedValue().toString()+":"
+                                       +arriveMin.getSelectedValue().toString() +" "+arriveAmpm.getSelectedValue().toString());
+                                       */
+//    new String( "\nAirline Name: "  + name + "\nNumber: " + number + "\nSource: " + source + "\nDeparture: " + SourceTime + "\nDestination: " + dest + "\nArrival: " + ArriveTime);
+    submitButton.addClickHandler(new ClickHandler() {
+      @Override
+      public void onClick(ClickEvent clickEvent)
+      {
+        Window.alert("Thanks for your submission.");
+        Flight flight = new Flight();
+        passAirline(flight);
+      }
+    });
+  }
+
+  private void passAirline( Flight flight ){
+    logger.info("Adding a flight to server");
+    airlineService.passAirline(flight, new AsyncCallback<Void>() {
+      @Override
+      public void onFailure(Throwable ex)
+      {
+        alertOnException(ex);
+      }
+
+      @Override
+      public void onSuccess(Void aVoid)
+      {
+
+      }
+    });
   }
 
   private void addWidgets(VerticalPanel panel) {

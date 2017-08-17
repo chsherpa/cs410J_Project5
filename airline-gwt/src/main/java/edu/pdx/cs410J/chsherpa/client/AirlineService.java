@@ -24,4 +24,5 @@ public interface AirlineService extends RemoteService {
    */
   void throwDeclaredException() throws IllegalStateException;
 
+  void passAirline( Flight flight );
 }
