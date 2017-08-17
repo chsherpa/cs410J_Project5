@@ -89,8 +89,8 @@ public class AirlineGwt implements EntryPoint {
   private void addTextFields( VerticalPanel panel )
   {
     Date today = new Date();
-    DateTimeFormat dt = DateTimeFormat.getFormat("MM/dd/yyyy");
-    DateTimeFormat tf = DateTimeFormat.getFormat("hh:mm");
+    final DateTimeFormat dt = DateTimeFormat.getFormat("MM/dd/yyyy");
+    final DateTimeFormat tf = DateTimeFormat.getFormat("hh:mm");
     final String dd = dt.format(today).toString();
     final String tt = tf.format(today, TimeZone.createTimeZone(0)).toString();
 
@@ -111,9 +111,18 @@ public class AirlineGwt implements EntryPoint {
 
     //Departure Date Stuff
     Label airlineDepartDateLabel = new Label("\nFlight Date: ");
-    DateBox departDatePick = new DateBox();
-    departDatePick.getElement().setAttribute("placeholder", dd );
-    departDatePick.setFormat(new DateBox.DefaultFormat(dt));
+    final DateBox[] departDatePick = {new DateBox()};
+    departDatePick[0].getElement().setAttribute("placeholder", dd );
+    departDatePick[0].setFormat(new DateBox.DefaultFormat(dt));
+
+    final String[] departDateString = new String[1];
+    departDatePick[0].addValueChangeHandler(new ValueChangeHandler<Date>() {
+         @Override
+         public void onValueChange(ValueChangeEvent<Date> event) {
+           Date date = event.getValue();
+           departDateString[0] = dt.format(date);
+         }
+      });
 
     Label departTimePickLabel = new Label("\nTimeBox");
     final DateBox.Format timeFormat = new DateBox.DefaultFormat(DateTimeFormat.getFormat(DateTimeFormat.PredefinedFormat.TIME_SHORT));
@@ -123,22 +132,9 @@ public class AirlineGwt implements EntryPoint {
     departTimePick.getElement().setAttribute("placeholder", tt );
     departTimePick.setFormat(new DateBox.DefaultFormat(tf));
 
-    //Arrival Date Stuff
     Label airlineDestinationLabel = new Label("\nFlight Destination:");
     final TextBox airlineDestination = new TextBox();
     airlineDestination.getElement().setAttribute("placeholder", placeHolder );
-
-    Label airlineArriveDateLabel = new Label("\nFlight Date: ");
-    DateBox arriveDatePick = new DateBox();
-    arriveDatePick.getElement().setAttribute("placeholder", dd );
-    arriveDatePick.setFormat(new DateBox.DefaultFormat(dt));
-
-    final Label arriveTimePickLabel = new Label("\nTimeBox");
-    DateBox arriveTimePick = new DateBox();
-    arriveTimePick.setFormat(timeFormat);
-    arriveTimePick.getDatePicker().setVisible(false);
-    arriveTimePick.getElement().setAttribute("placeholder", tt );
-    arriveTimePick.setFormat(new DateBox.DefaultFormat(tf));
 
     ListBox departHour = new ListBox();
     for( int i= 1; i < 13; i++ )
@@ -172,9 +168,31 @@ public class AirlineGwt implements EntryPoint {
     departAmpm.addItem("AM");
     departAmpm.addItem("PM");
 
-    StringBuilder depart = new StringBuilder( departDatePick.getValue() +" " + departHour.getSelectedValue()+":"
-        + departMin.getSelectedValue() +" "+ departAmpm.getSelectedValue() );
+    StringBuilder depart = new StringBuilder(departDateString[0] + " " + departHour.getSelectedValue() + ":"
+                                             + departMin.getSelectedValue() + " " + departAmpm.getSelectedValue() );
     final String departString = depart.toString();
+
+    //Arrival Date Stuff
+    Label airlineArriveDateLabel = new Label("\nFlight Date: ");
+    DateBox arriveDatePick = new DateBox();
+    arriveDatePick.getElement().setAttribute("placeholder", dd );
+    arriveDatePick.setFormat(new DateBox.DefaultFormat(dt));
+
+    final String[] arrivalDateString = new String[1];
+    arriveDatePick.addValueChangeHandler(new ValueChangeHandler<Date>() {
+         @Override
+         public void onValueChange(ValueChangeEvent<Date> event) {
+           Date date = event.getValue();
+           arrivalDateString[0] = dt.format(date);
+         }
+      });
+
+    final Label arriveTimePickLabel = new Label("\nTimeBox");
+    DateBox arriveTimePick = new DateBox();
+    arriveTimePick.setFormat(timeFormat);
+    arriveTimePick.getDatePicker().setVisible(false);
+    arriveTimePick.getElement().setAttribute("placeholder", tt );
+    arriveTimePick.setFormat(new DateBox.DefaultFormat(tf));
 
     ListBox arriveHour = new ListBox();
     for( int i= 1; i < 13; i++ )
@@ -208,7 +226,7 @@ public class AirlineGwt implements EntryPoint {
     arriveAmpm.addItem("AM");
     arriveAmpm.addItem("PM");
 
-    StringBuilder arrive = new StringBuilder( arriveDatePick.getValue()+" " +arriveHour.getSelectedValue()+":"
+    StringBuilder arrive = new StringBuilder( arrivalDateString[0] +" " +arriveHour.getSelectedValue()+":"
         +arriveMin.getSelectedValue() +" "+arriveAmpm.getSelectedValue() );
     final String arrivalString = arrive.toString();
 
@@ -254,7 +272,7 @@ public class AirlineGwt implements EntryPoint {
     grid.setWidget(4,1,airlineSource);
     grid.setWidget(5,0,airlineDepartDateLabel);
     grid.setWidget(5,1,departTimePickLabel);
-    grid.setWidget(6,0,departDatePick);
+    grid.setWidget(6,0, departDatePick[0]);
     grid.setWidget(6,1,departTime);
 
     grid.setWidget(9,0,airlineDestinationLabel);
@@ -293,15 +311,39 @@ public class AirlineGwt implements EntryPoint {
         Window.alert("Thanks for your submission.");
         Flight flight = new Flight();
         flight.setFlightName( airlineName.getText() );
-        flight.setNumber(Integer.parseInt( airlineNumber.getText() ));
-        flight.setSource( airlineSource.getText() );
-        flight.setDepartureString( departString );
-        flight.setDestination( airlineDestination.getText() );
-        flight.setArrivalString( arrivalString );
-        addAirline( flight.getFlightName() );
-        addFlight(flight);
+
+        if( flight.getFlightName().isEmpty() )
+        {
+          alerter.alert("Flight name is empty");
+        }
+        else
+        {
+          flight.setNumber(Integer.parseInt( airlineNumber.getText() ));
+          flight.setSource( airlineSource.getText() );
+          flight.setDepartureString( departString );
+          flight.setDestination( airlineDestination.getText() );
+          flight.setArrivalString( arrivalString );
+          addAirline( flight.getFlightName() );
+          addFlight(flight);
+        }
       }
     });
+
+    searchButton.addClickHandler(new ClickHandler() {
+      @Override
+      public void onClick(ClickEvent clickEvent)
+      {
+        if( ( airlineSource.getText().equals(null)|| airlineSource.getText().isEmpty() ) && (airlineDestination.getText().isEmpty() || airlineDestination.getText().equals(null) ) )
+        {
+          alerter.alert("Either the Source or Destination is null!");
+        }
+        else
+        {
+          searchAirline(airlineSource.getText(), airlineDestination.getText());
+        }
+      }
+    });
+
   }
 
   private void addFlight( Flight flight ){
@@ -316,8 +358,7 @@ public class AirlineGwt implements EntryPoint {
       @Override
       public void onSuccess(Void aVoid)
       {
-        Window.alert("Successfully added a flight");
-
+//        Window.alert("Successfully added a flight");
       }
     });
   }
@@ -414,6 +455,42 @@ public class AirlineGwt implements EntryPoint {
     });
   }
 
+  private void searchAirline( final String source, final String destination )
+  {
+    logger.info("Searching Airline");
+    airlineService.getAirline(new AsyncCallback<Airline>() {
+
+      @Override
+      public void onFailure(Throwable ex) {
+        alertOnException(ex);
+      }
+
+      @Override
+      public void onSuccess(Airline airline)
+      {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Flights for ").append( airline.getName() ).append(":\n");
+        Collection<Flight> flights = airline.getFlights();
+        sb.append("Flights between ").append(source).append(" and ").append(destination).append(":\n");
+
+        for (Flight f : flights) {
+          if( f.getSource().equals(source) && f.getDestination().equals(destination))
+          {
+            sb.append("\nFlight Name: "+f.getFlightName() )
+              .append("\nNumber: " + f.getNumber() )
+              .append("\nSource: " + f.getSource() )
+              .append("\nDeparture: " + f.getDepartureString() )
+              .append("\nDestination: " + f.getDestination() )
+              .append("\nArrival: " + f.getArrivalString() )
+              .append("\n");
+          }
+        }
+        alerter.alert(sb.toString());
+      }
+    });
+
+  }
+
   private void showAirline() {
     logger.info("Calling getAirline");
     airlineService.getAirline(new AsyncCallback<Airline>() {
@@ -425,13 +502,26 @@ public class AirlineGwt implements EntryPoint {
 
       @Override
       public void onSuccess(Airline airline) {
-        StringBuilder sb = new StringBuilder(airline.toString());
-        Collection<Flight> flights = airline.getFlights();
-        for (Flight flight : flights) {
-          sb.append(flight);
-          sb.append("\n");
+        if( airline == null )
+        {
+          alerter.alert("Empty Airline");
         }
-        alerter.alert(sb.toString());
+        else if( airline.getName() == null || airline.getName().isEmpty() )
+        {
+          alerter.alert("Empty Airline");
+        }
+        else
+        {
+          StringBuilder sb = new StringBuilder(airline.getName());
+          Collection<Flight> flights = airline.getFlights();
+          for (Flight flight : flights)
+          {
+            sb.append("\n");
+            sb.append(flight);
+            sb.append("\n");
+          }
+          alerter.alert(sb.toString());
+        }
       }
     });
   }

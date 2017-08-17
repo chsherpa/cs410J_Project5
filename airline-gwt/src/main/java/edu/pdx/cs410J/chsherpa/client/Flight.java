@@ -150,7 +150,7 @@ public class Flight extends AbstractFlight //implements Comparable<Flight>
    */
   public String getSource()
   {
-    return src;
+    return src.toUpperCase();
 //    throw new UnsupportedOperationException("This method is not implemented yet");
   }
 
@@ -170,18 +170,6 @@ public class Flight extends AbstractFlight //implements Comparable<Flight>
    */
   public String getDepartureString()
   {
-    /*
-    String shDate = null;
-    try
-    {
-      shDate = ShortDate(this.departTime);
-    }
-    catch (ParseException e)
-    {
-      throw new IllegalArgumentException("\nParse Problems!!\n");
-    }
-    return shDate;
-    */
     return this.departTime;
   }
 
@@ -201,7 +189,7 @@ public class Flight extends AbstractFlight //implements Comparable<Flight>
    */
   public String getDestination()
   {
-    return dest;
+    return dest.toUpperCase();
     // throw new UnsupportedOperationException("This method is not implemented yet");
   }
 
@@ -222,17 +210,7 @@ public class Flight extends AbstractFlight //implements Comparable<Flight>
    */
   public String getArrivalString()
   {
-    /*
-    String shDate = new String();
-    try
-    {
-      shDate = ShortDate(this.arriveTime);
-    }
-    catch (ParseException e)
-    {
-    }
-    */
-    return this.arriveTime;
+    return this.arriveTime.toString();
   }
 
   /**
@@ -240,7 +218,7 @@ public class Flight extends AbstractFlight //implements Comparable<Flight>
    *
    * @param arriveTime arrival time of the object; in format
    */
-  public void setArrivalString(String arriveTime)
+  public void setArrivalString( String arriveTime)
   {
     this.arriveTime = arriveTime;
   }

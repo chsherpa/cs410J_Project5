@@ -7,17 +7,27 @@ import com.google.gwt.user.client.rpc.impl.ReflectionHelper;
 
 @SuppressWarnings("deprecation")
 public class Airline_FieldSerializer implements com.google.gwt.user.client.rpc.impl.TypeHandler {
-  private static native java.util.Collection getFlights(edu.pdx.cs410J.chsherpa.client.Airline instance) /*-{
+  private static native java.lang.String getAirlineName(edu.pdx.cs410J.chsherpa.client.Airline instance) /*-{
+    return instance.@edu.pdx.cs410J.chsherpa.client.Airline::airlineName;
+  }-*/;
+  
+  private static native void setAirlineName(edu.pdx.cs410J.chsherpa.client.Airline instance, java.lang.String value) 
+  /*-{
+    instance.@edu.pdx.cs410J.chsherpa.client.Airline::airlineName = value;
+  }-*/;
+  
+  private static native java.util.List getFlights(edu.pdx.cs410J.chsherpa.client.Airline instance) /*-{
     return instance.@edu.pdx.cs410J.chsherpa.client.Airline::flights;
   }-*/;
   
-  private static native void setFlights(edu.pdx.cs410J.chsherpa.client.Airline instance, java.util.Collection value) 
+  private static native void setFlights(edu.pdx.cs410J.chsherpa.client.Airline instance, java.util.List value) 
   /*-{
     instance.@edu.pdx.cs410J.chsherpa.client.Airline::flights = value;
   }-*/;
   
   public static void deserialize(SerializationStreamReader streamReader, edu.pdx.cs410J.chsherpa.client.Airline instance) throws SerializationException {
-    setFlights(instance, (java.util.Collection) streamReader.readObject());
+    setAirlineName(instance, streamReader.readString());
+    setFlights(instance, (java.util.List) streamReader.readObject());
     
     edu.pdx.cs410J.AbstractAirline_FieldSerializer.deserialize(streamReader, instance);
   }
@@ -27,6 +37,7 @@ public class Airline_FieldSerializer implements com.google.gwt.user.client.rpc.i
   }
   
   public static void serialize(SerializationStreamWriter streamWriter, edu.pdx.cs410J.chsherpa.client.Airline instance) throws SerializationException {
+    streamWriter.writeString(getAirlineName(instance));
     streamWriter.writeObject(getFlights(instance));
     
     edu.pdx.cs410J.AbstractAirline_FieldSerializer.serialize(streamWriter, instance);

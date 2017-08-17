@@ -13,9 +13,13 @@ public class AirlineServiceImpl extends RemoteServiceServlet implements AirlineS
   Airline airline;
 
   @Override
-  public Airline getAirline() {
-    airline = new Airline();
-    airline.addFlight(new Flight());
+  public Airline getAirline()
+  {
+    if( this.airline == null )
+    {
+      airline = new Airline();
+      airline.addFlight(new Flight());
+    }
     return airline;
   }
 

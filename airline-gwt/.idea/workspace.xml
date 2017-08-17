@@ -2,45 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c95a4fbd-8bf4-4ed5-873b-05ee6998a010" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99E0276" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99E1746" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99E2008" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99E25C4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99E2AAB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99E2B60" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99E31B5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99F1677" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99F2FFA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99F5296" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DC99F5345" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89BBAAC" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89D94B9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89DA9D7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89DA9F0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89DAEB4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89DAEE0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89DAEF4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE89DAFD4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8A686EA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8AFBA93" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8B07115" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8B39E60" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8BB1823" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8BD22DB" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8BDB1CE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8BE7D1B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8E3AB0D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8E66163" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8F885EF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE8F9B07D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE9002165" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE900E55F" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE90125AF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE9019AA5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE901D25B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gwt-unitCache/gwt-unitCache-c2c3dd5baf648a0bb199047a818be5e560f48982-0000015DE910D7B0" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/Airline.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/Airline.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$1.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$1.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/Boolean_FieldSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/rpc/core/java/util/Collections_EmptySet_FieldSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/rpc/core/java/util/HashSet_FieldSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/rpc/core/java/util/LinkedHashSet_FieldSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/rpc/core/java/util/TreeMap_FieldSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/rpc/core/java/util/TreeSet_FieldSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/rpcPolicyManifest/manifests/369CF91435E0BE22CA5AB6139F717152.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/symbolMaps/22B1A9937DA084E564C403E4BF292E0F.symbolMap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/symbolMaps/58C160D5A01D48FBBC2C7AC5D0EB77C3.symbolMap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/symbolMaps/81FDDA2D6F373DEDDE109EE3C1039198.symbolMap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/symbolMaps/AD503B298079BF338D48BF72C2A9C950.symbolMap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/symbolMaps/D98E3C271E645E1860818437F5C125D7.symbolMap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/lib/cobertura-runtime-2.1.1.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/airline/22B1A9937DA084E564C403E4BF292E0F.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/airline/58C160D5A01D48FBBC2C7AC5D0EB77C3.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/airline/81FDDA2D6F373DEDDE109EE3C1039198.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/airline/8A922CDD6503BDFFFD6CEA608176675D.gwt.rpc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/airline/AD503B298079BF338D48BF72C2A9C950.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/airline/airline/D98E3C271E645E1860818437F5C125D7.cache.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$10.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$2.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$3.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineGwt$3.class" />
@@ -55,14 +35,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/Flight.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/client/Flight.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.class" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/classes/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/lib/projects-Summer2017-sources.jar" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/lib/projects-Summer2017-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/lib/projects-Summer2017.jar" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/lib/projects-Summer2017.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Airline.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Airline.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineGwt.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineGwt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineService.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Flight.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Flight.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/AirlineService_Proxy.java" afterPath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/AirlineService_Proxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/AirlineService_TypeSerializer.java" afterPath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/AirlineService_TypeSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/Airline_FieldSerializer.java" afterPath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/Airline_FieldSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/Flight_FieldSerializer.java" afterPath="$PROJECT_DIR$/target/.generated/edu/pdx/cs410J/chsherpa/client/Flight_FieldSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/rpcPolicyManifest/manifest.txt" afterPath="$PROJECT_DIR$/target/airline/WEB-INF/deploy/airline/rpcPolicyManifest/manifest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/airline/airline.nocache.js" afterPath="$PROJECT_DIR$/target/airline/airline/airline.nocache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/airline/airline/compilation-mappings.txt" afterPath="$PROJECT_DIR$/target/airline/airline/compilation-mappings.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,57 +64,45 @@
       <file leaf-file-name="Airline.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Airline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
+            <state relative-caret-position="-869">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#781#789#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1552#1553#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1637#1638#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <marker date="1502930674404" expanded="false" signature="319:326" ph=" { " />
-                <marker date="1502930674404" expanded="false" signature="346:350" ph=" }" />
-                <marker date="1502930674404" expanded="false" signature="402:409" ph=" { " />
-                <marker date="1502930674404" expanded="false" signature="434:438" ph=" }" />
-                <marker date="1502930674404" expanded="false" signature="492:499" ph=" { " />
-                <marker date="1502930674404" expanded="false" signature="519:523" ph=" }" />
+                <element signature="e#2464#2480#0" expanded="false" />
+                <marker date="1503002281000" expanded="false" signature="319:326" ph=" { " />
+                <marker date="1503002281000" expanded="false" signature="346:350" ph=" }" />
+                <marker date="1503002281000" expanded="false" signature="402:409" ph=" { " />
+                <marker date="1503002281000" expanded="false" signature="434:438" ph=" }" />
+                <marker date="1503002281000" expanded="false" signature="492:499" ph=" { " />
+                <marker date="1503002281000" expanded="false" signature="519:523" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirlineGwt.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AirlineGwt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineGwt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="324" column="37" lean-forward="false" selection-start-line="324" selection-start-column="37" selection-end-line="324" selection-end-column="37" />
+            <state relative-caret-position="75">
+              <caret line="502" column="14" lean-forward="false" selection-start-line="502" selection-start-column="14" selection-end-line="502" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#AirlineGwt#0;class#AirlineGwt#0" expanded="false" />
-                <element signature="class#1520:1634" expanded="false" />
-                <element signature="method#AirlineGwt#1;class#AirlineGwt#0" expanded="false" />
-                <element signature="method#alertOnException#0;class#AirlineGwt#0" expanded="false" />
-                <element signature="method#unwrapUmbrellaException#0;class#AirlineGwt#0" expanded="false" />
-                <element signature="e#11489#11490#0" expanded="true" />
-                <element signature="e#11527#11528#0" expanded="true" />
+                <element signature="class#10763:11537" expanded="false" />
+                <element signature="class#11578:12065" expanded="false" />
+                <element signature="method#addFlight#0;class#AirlineGwt#0" expanded="false" />
+                <element signature="class#12204:12465" expanded="false" />
+                <element signature="method#addAirline#0;class#AirlineGwt#0" expanded="false" />
                 <element signature="method#addWidgets#0;class#AirlineGwt#0" expanded="false" />
-                <element signature="e#11841#11842#0" expanded="true" />
-                <element signature="e#11872#11873#0" expanded="true" />
                 <element signature="method#throwClientSideException#0;class#AirlineGwt#0" expanded="false" />
                 <element signature="method#showUndeclaredException#0;class#AirlineGwt#0" expanded="false" />
-                <element signature="class#13182:13424" expanded="false" />
                 <element signature="method#showDeclaredException#0;class#AirlineGwt#0" expanded="false" />
-                <element signature="class#13570:13812" expanded="false" />
+                <element signature="method#searchAirline#0;class#AirlineGwt#0" expanded="false" />
+                <element signature="e#15335#15336#0" expanded="true" />
+                <element signature="e#15373#15374#0" expanded="true" />
                 <element signature="method#onModuleLoad#0;class#AirlineGwt#0" expanded="false" />
+                <element signature="method#setupUI#0;class#AirlineGwt#0" expanded="false" />
+                <element signature="method#setUpUncaughtExceptionHandler#0;class#AirlineGwt#0" expanded="false" />
+                <element signature="class#Alerter#0;class#AirlineGwt#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -136,8 +111,8 @@
       <file leaf-file-name="AirlineService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="328">
+              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -146,53 +121,62 @@
       <file leaf-file-name="AirlineServiceAsync.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            <state relative-caret-position="405">
+              <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flight.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Flight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Flight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="-225">
+              <caret line="191" column="28" lean-forward="false" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;method#Flight#0;class#Flight#0" expanded="false" />
                 <element signature="method#Flight#0;class#Flight#0" expanded="false" />
                 <element signature="docComment;method#Flight#1;class#Flight#0" expanded="false" />
                 <element signature="method#Flight#2;class#Flight#0" expanded="false" />
                 <element signature="method#Flight#3;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#getFlightName#0;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#setFlightName#0;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#setNumber#0;class#Flight#0" expanded="false" />
-                <element signature="method#getSource#0;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#setSource#0;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#setDepartureString#0;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#setDestination#0;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#setArrivalString#0;class#Flight#0" expanded="false" />
-                <element signature="docComment;method#addFlightInfo#0;class#Flight#0" expanded="false" />
+                <element signature="docComment;method#Flight#4;class#Flight#0" expanded="false" />
+                <element signature="method#Flight#4;class#Flight#0" expanded="false" />
+                <element signature="e#2584#2585#0" expanded="true" />
+                <element signature="e#2616#2617#0" expanded="true" />
                 <element signature="method#addFlightInfo#0;class#Flight#0" expanded="false" />
-                <element signature="e#5878#6001#0" expanded="false" />
-                <element signature="e#6319#6534#0" expanded="false" />
-                <element signature="e#7685#7752#0" expanded="false" />
-                <marker date="1502946624033" expanded="false" signature="191:717" ph="..." />
-                <marker date="1502946624033" expanded="false" signature="339:346" ph=" { " />
-                <marker date="1502946624033" expanded="false" signature="359:363" ph=" }" />
-                <marker date="1502946624033" expanded="false" signature="405:412" ph=" { " />
-                <marker date="1502946624033" expanded="false" signature="430:434" ph=" }" />
-                <marker date="1502946624033" expanded="false" signature="472:479" ph=" { " />
-                <marker date="1502946624033" expanded="false" signature="513:517" ph=" }" />
-                <marker date="1502946624033" expanded="false" signature="551:558" ph=" { " />
-                <marker date="1502946624033" expanded="false" signature="571:575" ph=" }" />
-                <marker date="1502946624033" expanded="false" signature="603:610" ph=" { " />
-                <marker date="1502946624033" expanded="false" signature="628:632" ph=" }" />
-                <marker date="1502946624033" expanded="false" signature="668:675" ph=" { " />
-                <marker date="1502946624033" expanded="false" signature="707:711" ph=" }" />
-                <marker date="1502946624033" expanded="false" signature="7863:8091" ph="{...}" />
-                <marker date="1502946624033" expanded="false" signature="7928:8087" ph="{...}" />
+                <marker date="1503009254000" expanded="false" signature="191:717" ph="..." />
+                <marker date="1503009254000" expanded="false" signature="339:346" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="359:363" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="405:412" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="430:434" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="472:479" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="513:517" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="551:558" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="571:575" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="603:610" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="628:632" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="668:675" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="707:711" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="2440:2549" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="2621:2725" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="2772:2781" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="2810:2814" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="2957:2966" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="2986:2990" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="2994:3082" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="3124:3133" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="3166:3170" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="3402:3503" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="3539:3548" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="3563:3567" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="3731:3814" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="4152:4265" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="4307:4316" ph=" { " />
+                <marker date="1503009254000" expanded="false" signature="4333:4337" ph=" }" />
+                <marker date="1503009254000" expanded="false" signature="4512:4643" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="4740:4851" ph="/**...*/" />
+                <marker date="1503009254000" expanded="false" signature="8016:8244" ph="{...}" />
+                <marker date="1503009254000" expanded="false" signature="8081:8240" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,11 +185,10 @@
       <file leaf-file-name="AirlineServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="-77">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,8 +212,8 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineService.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineGwt.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Flight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineGwt.java" />
       </list>
     </option>
   </component>
@@ -280,8 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,8 +334,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Gaim">
+  <component name="RunManager" selected="Remote.Jetty Server">
     <configuration name="Gaim" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="edu.pdx.cs410J.chsherpa.AirlineServiceSyncProxyIT" />
@@ -390,6 +373,17 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="airline-gwt" />
       <envs />
+    </configuration>
+    <configuration name="Jetty Server" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -472,6 +466,10 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Gaim" />
+      <item index="1" class="java.lang.String" itemvalue="Remote.Jetty Server" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -488,12 +486,21 @@
       <updated>1502326594802</updated>
       <workItem from="1502326602587" duration="645000" />
       <workItem from="1502845552935" duration="9054000" />
-      <workItem from="1502915772492" duration="16300000" />
+      <workItem from="1502915772492" duration="16443000" />
+      <workItem from="1503002251691" duration="7468000" />
     </task>
+    <task id="LOCAL-00001" summary="Git Commit 8/17/2017">
+      <created>1502947003138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502947003139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25999000" />
+    <option name="totallyTimeSpent" value="33610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -507,12 +514,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -521,7 +528,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -541,39 +548,150 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+    <MESSAGE value="Git Commit 8/17/2017" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git Commit 8/17/2017" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Airline.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2464#2480#0" expanded="false" />
+            <marker date="1503002281000" expanded="false" signature="319:326" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="346:350" ph=" }" />
+            <marker date="1503002281000" expanded="false" signature="402:409" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="434:438" ph=" }" />
+            <marker date="1503002281000" expanded="false" signature="492:499" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="519:523" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineGwt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="324" column="37" lean-forward="false" selection-start-line="324" selection-start-column="37" selection-end-line="324" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#10763:11537" expanded="false" />
+            <element signature="class#11578:12065" expanded="false" />
+            <element signature="method#addFlight#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="class#12204:12465" expanded="false" />
+            <element signature="method#addAirline#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#addWidgets#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#throwClientSideException#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#showUndeclaredException#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#showDeclaredException#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#searchAirline#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="e#15335#15336#0" expanded="true" />
+            <element signature="e#15373#15374#0" expanded="true" />
+            <element signature="method#onModuleLoad#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#setupUI#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#setUpUncaughtExceptionHandler#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="class#Alerter#0;class#AirlineGwt#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Flight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#Flight#0;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#0;class#Flight#0" expanded="false" />
+            <element signature="docComment;method#Flight#1;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#2;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#3;class#Flight#0" expanded="false" />
+            <element signature="docComment;method#Flight#4;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#4;class#Flight#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="method#addFlightInfo#0;class#Flight#0" expanded="false" />
+            <marker date="1503009254000" expanded="false" signature="191:717" ph="..." />
+            <marker date="1503009254000" expanded="false" signature="339:346" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="359:363" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="405:412" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="430:434" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="472:479" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="513:517" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="551:558" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="571:575" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="603:610" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="628:632" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="668:675" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="707:711" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2440:2549" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="2621:2725" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="2772:2781" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="2810:2814" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2957:2966" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="2986:2990" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2994:3082" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="3124:3133" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="3166:3170" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="3402:3503" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="3539:3548" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="3563:3567" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="3731:3814" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4152:4265" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4307:4316" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="4333:4337" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="4512:4643" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4740:4851" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="8016:8244" ph="{...}" />
+            <marker date="1503009254000" expanded="false" signature="8081:8240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Airline.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#781#789#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <marker date="1502930674404" expanded="false" signature="319:326" ph=" { " />
-            <marker date="1502930674404" expanded="false" signature="346:350" ph=" }" />
-            <marker date="1502930674404" expanded="false" signature="402:409" ph=" { " />
-            <marker date="1502930674404" expanded="false" signature="434:438" ph=" }" />
-            <marker date="1502930674404" expanded="false" signature="492:499" ph=" { " />
-            <marker date="1502930674404" expanded="false" signature="519:523" ph=" }" />
+            <element signature="e#2464#2480#0" expanded="false" />
+            <marker date="1503002281000" expanded="false" signature="319:326" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="346:350" ph=" }" />
+            <marker date="1503002281000" expanded="false" signature="402:409" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="434:438" ph=" }" />
+            <marker date="1503002281000" expanded="false" signature="492:499" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="519:523" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -599,40 +717,49 @@
         <state relative-caret-position="0">
           <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;method#Flight#0;class#Flight#0" expanded="false" />
             <element signature="method#Flight#0;class#Flight#0" expanded="false" />
             <element signature="docComment;method#Flight#1;class#Flight#0" expanded="false" />
             <element signature="method#Flight#2;class#Flight#0" expanded="false" />
             <element signature="method#Flight#3;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#getFlightName#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setFlightName#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setNumber#0;class#Flight#0" expanded="false" />
-            <element signature="method#getSource#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setSource#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setDepartureString#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setDestination#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setArrivalString#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#addFlightInfo#0;class#Flight#0" expanded="false" />
+            <element signature="docComment;method#Flight#4;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#4;class#Flight#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
             <element signature="method#addFlightInfo#0;class#Flight#0" expanded="false" />
-            <element signature="e#5878#6001#0" expanded="false" />
-            <element signature="e#6319#6534#0" expanded="false" />
-            <element signature="e#7685#7752#0" expanded="false" />
-            <marker date="1502946624033" expanded="false" signature="191:717" ph="..." />
-            <marker date="1502946624033" expanded="false" signature="339:346" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="359:363" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="405:412" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="430:434" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="472:479" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="513:517" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="551:558" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="571:575" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="603:610" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="628:632" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="668:675" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="707:711" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="7863:8091" ph="{...}" />
-            <marker date="1502946624033" expanded="false" signature="7928:8087" ph="{...}" />
+            <marker date="1503009254000" expanded="false" signature="191:717" ph="..." />
+            <marker date="1503009254000" expanded="false" signature="339:346" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="359:363" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="405:412" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="430:434" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="472:479" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="513:517" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="551:558" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="571:575" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="603:610" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="628:632" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="668:675" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="707:711" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2440:2549" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="2621:2725" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="2772:2781" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="2810:2814" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2957:2966" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="2986:2990" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2994:3082" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="3124:3133" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="3166:3170" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="3402:3503" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="3539:3548" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="3563:3567" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="3731:3814" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4152:4265" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4307:4316" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="4333:4337" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="4512:4643" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4740:4851" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="8016:8244" ph="{...}" />
+            <marker date="1503009254000" expanded="false" signature="8081:8240" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -643,7 +770,6 @@
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -659,131 +785,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Airline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
+        <state relative-caret-position="-869">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#781#789#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <marker date="1502930674404" expanded="false" signature="319:326" ph=" { " />
-            <marker date="1502930674404" expanded="false" signature="346:350" ph=" }" />
-            <marker date="1502930674404" expanded="false" signature="402:409" ph=" { " />
-            <marker date="1502930674404" expanded="false" signature="434:438" ph=" }" />
-            <marker date="1502930674404" expanded="false" signature="492:499" ph=" { " />
-            <marker date="1502930674404" expanded="false" signature="519:523" ph=" }" />
+            <element signature="e#2464#2480#0" expanded="false" />
+            <marker date="1503002281000" expanded="false" signature="319:326" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="346:350" ph=" }" />
+            <marker date="1503002281000" expanded="false" signature="402:409" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="434:438" ph=" }" />
+            <marker date="1503002281000" expanded="false" signature="492:499" ph=" { " />
+            <marker date="1503002281000" expanded="false" signature="519:523" ph=" }" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/server/AirlineServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="-77">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Flight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="191" column="28" lean-forward="false" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
+          <folding>
+            <element signature="docComment;method#Flight#0;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#0;class#Flight#0" expanded="false" />
+            <element signature="docComment;method#Flight#1;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#2;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#3;class#Flight#0" expanded="false" />
+            <element signature="docComment;method#Flight#4;class#Flight#0" expanded="false" />
+            <element signature="method#Flight#4;class#Flight#0" expanded="false" />
+            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="method#addFlightInfo#0;class#Flight#0" expanded="false" />
+            <marker date="1503009254000" expanded="false" signature="191:717" ph="..." />
+            <marker date="1503009254000" expanded="false" signature="339:346" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="359:363" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="405:412" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="430:434" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="472:479" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="513:517" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="551:558" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="571:575" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="603:610" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="628:632" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="668:675" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="707:711" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2440:2549" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="2621:2725" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="2772:2781" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="2810:2814" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2957:2966" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="2986:2990" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="2994:3082" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="3124:3133" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="3166:3170" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="3402:3503" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="3539:3548" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="3563:3567" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="3731:3814" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4152:4265" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4307:4316" ph=" { " />
+            <marker date="1503009254000" expanded="false" signature="4333:4337" ph=" }" />
+            <marker date="1503009254000" expanded="false" signature="4512:4643" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="4740:4851" ph="/**...*/" />
+            <marker date="1503009254000" expanded="false" signature="8016:8244" ph="{...}" />
+            <marker date="1503009254000" expanded="false" signature="8081:8240" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineGwt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="324" column="37" lean-forward="false" selection-start-line="324" selection-start-column="37" selection-end-line="324" selection-end-column="37" />
+        <state relative-caret-position="75">
+          <caret line="502" column="14" lean-forward="false" selection-start-line="502" selection-start-column="14" selection-end-line="502" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#AirlineGwt#0;class#AirlineGwt#0" expanded="false" />
-            <element signature="class#1520:1634" expanded="false" />
-            <element signature="method#AirlineGwt#1;class#AirlineGwt#0" expanded="false" />
-            <element signature="method#alertOnException#0;class#AirlineGwt#0" expanded="false" />
-            <element signature="method#unwrapUmbrellaException#0;class#AirlineGwt#0" expanded="false" />
-            <element signature="e#11489#11490#0" expanded="true" />
-            <element signature="e#11527#11528#0" expanded="true" />
+            <element signature="class#10763:11537" expanded="false" />
+            <element signature="class#11578:12065" expanded="false" />
+            <element signature="method#addFlight#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="class#12204:12465" expanded="false" />
+            <element signature="method#addAirline#0;class#AirlineGwt#0" expanded="false" />
             <element signature="method#addWidgets#0;class#AirlineGwt#0" expanded="false" />
-            <element signature="e#11841#11842#0" expanded="true" />
-            <element signature="e#11872#11873#0" expanded="true" />
             <element signature="method#throwClientSideException#0;class#AirlineGwt#0" expanded="false" />
             <element signature="method#showUndeclaredException#0;class#AirlineGwt#0" expanded="false" />
-            <element signature="class#13182:13424" expanded="false" />
             <element signature="method#showDeclaredException#0;class#AirlineGwt#0" expanded="false" />
-            <element signature="class#13570:13812" expanded="false" />
+            <element signature="method#searchAirline#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="e#15335#15336#0" expanded="true" />
+            <element signature="e#15373#15374#0" expanded="true" />
             <element signature="method#onModuleLoad#0;class#AirlineGwt#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/AirlineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/chsherpa/client/Flight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#Flight#0;class#Flight#0" expanded="false" />
-            <element signature="method#Flight#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#Flight#1;class#Flight#0" expanded="false" />
-            <element signature="method#Flight#2;class#Flight#0" expanded="false" />
-            <element signature="method#Flight#3;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#getFlightName#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setFlightName#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setNumber#0;class#Flight#0" expanded="false" />
-            <element signature="method#getSource#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setSource#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setDepartureString#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setDestination#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#setArrivalString#0;class#Flight#0" expanded="false" />
-            <element signature="docComment;method#addFlightInfo#0;class#Flight#0" expanded="false" />
-            <element signature="method#addFlightInfo#0;class#Flight#0" expanded="false" />
-            <element signature="e#5878#6001#0" expanded="false" />
-            <element signature="e#6319#6534#0" expanded="false" />
-            <element signature="e#7685#7752#0" expanded="false" />
-            <marker date="1502946624033" expanded="false" signature="191:717" ph="..." />
-            <marker date="1502946624033" expanded="false" signature="339:346" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="359:363" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="405:412" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="430:434" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="472:479" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="513:517" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="551:558" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="571:575" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="603:610" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="628:632" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="668:675" ph=" { " />
-            <marker date="1502946624033" expanded="false" signature="707:711" ph=" }" />
-            <marker date="1502946624033" expanded="false" signature="7863:8091" ph="{...}" />
-            <marker date="1502946624033" expanded="false" signature="7928:8087" ph="{...}" />
+            <element signature="method#setupUI#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="method#setUpUncaughtExceptionHandler#0;class#AirlineGwt#0" expanded="false" />
+            <element signature="class#Alerter#0;class#AirlineGwt#0" expanded="false" />
           </folding>
         </state>
       </provider>

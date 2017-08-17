@@ -13,7 +13,7 @@ import com.google.gwt.user.client.rpc.impl.RpcStatsContext;
 
 public class AirlineService_Proxy extends RemoteServiceProxy implements edu.pdx.cs410J.chsherpa.client.AirlineServiceAsync {
   private static final String REMOTE_SERVICE_INTERFACE_NAME = "edu.pdx.cs410J.chsherpa.client.AirlineService";
-  private static final String SERIALIZATION_POLICY ="8A922CDD6503BDFFFD6CEA608176675D";
+  private static final String SERIALIZATION_POLICY ="0E82578C03C0C255BEF77B9C0497E102";
   private static final edu.pdx.cs410J.chsherpa.client.AirlineService_TypeSerializer SERIALIZER = new edu.pdx.cs410J.chsherpa.client.AirlineService_TypeSerializer();
   
   public AirlineService_Proxy() {
@@ -21,6 +21,30 @@ public class AirlineService_Proxy extends RemoteServiceProxy implements edu.pdx.
       "airline", 
       SERIALIZATION_POLICY, 
       SERIALIZER);
+  }
+  
+  public void addAirline(java.lang.String airlineName, com.google.gwt.user.client.rpc.AsyncCallback async) {
+    com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper helper = new com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper("AirlineService_Proxy", "addAirline");
+    try {
+      SerializationStreamWriter streamWriter = helper.start(REMOTE_SERVICE_INTERFACE_NAME, 1);
+      streamWriter.writeString("java.lang.String/2004016611");
+      streamWriter.writeString(airlineName);
+      helper.finish(async, ResponseReader.VOID);
+    } catch (SerializationException ex) {
+      async.onFailure(ex);
+    }
+  }
+  
+  public void addFlight(edu.pdx.cs410J.chsherpa.client.Flight flight, com.google.gwt.user.client.rpc.AsyncCallback async) {
+    com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper helper = new com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper("AirlineService_Proxy", "addFlight");
+    try {
+      SerializationStreamWriter streamWriter = helper.start(REMOTE_SERVICE_INTERFACE_NAME, 1);
+      streamWriter.writeString("edu.pdx.cs410J.chsherpa.client.Flight/2494013137");
+      streamWriter.writeObject(flight);
+      helper.finish(async, ResponseReader.VOID);
+    } catch (SerializationException ex) {
+      async.onFailure(ex);
+    }
   }
   
   public void getAirline(com.google.gwt.user.client.rpc.AsyncCallback async) {
