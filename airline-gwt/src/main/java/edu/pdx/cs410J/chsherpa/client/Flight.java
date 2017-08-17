@@ -48,12 +48,12 @@ public class Flight extends AbstractFlight
 
 public class Flight extends AbstractFlight //implements Comparable<Flight>
 {
-  private String flightName; //= "Flight Default";
+  private String flightName = null; //= "Flight Default";
   private int flightNumber = 42;
-  private String src;//= "Source Airport";
-  private String departTime;
-  private String dest;// = "Destination Airport";
-  private String arriveTime;
+  private String src = null;//= "Source Airport";
+  private String departTime = null;
+  private String dest = null;// = "Destination Airport";
+  private String arriveTime = null;
 
   /**
    * In order for GWT to serialize this class (so that it can be sent between
@@ -86,6 +86,21 @@ public class Flight extends AbstractFlight //implements Comparable<Flight>
     this.setSource( source) ;
     this.setDestination(destination);
     this.setNumber(number);
+  }
+
+  /**
+   * Copy Constructor for another flight
+   *
+   * @param anotherFlight Another flight object
+   */
+  public Flight( Flight anotherFlight )
+  {
+    setFlightName(anotherFlight.getFlightName());
+    setNumber(anotherFlight.getNumber());
+    setSource( anotherFlight.getSource() );
+    setDestination(anotherFlight.getDestination());
+    setDepartureString(anotherFlight.getDepartureString());
+    setArrivalString(anotherFlight.getArrivalString());
   }
 
   /**

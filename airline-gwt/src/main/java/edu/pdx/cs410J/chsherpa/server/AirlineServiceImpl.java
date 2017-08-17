@@ -10,10 +10,11 @@ import edu.pdx.cs410J.chsherpa.client.AirlineService;
  */
 public class AirlineServiceImpl extends RemoteServiceServlet implements AirlineService
 {
-  Airline airline = new Airline();
+  Airline airline;
+
   @Override
   public Airline getAirline() {
-    Airline airline = new Airline();
+    airline = new Airline();
     airline.addFlight(new Flight());
     return airline;
   }
@@ -41,7 +42,23 @@ public class AirlineServiceImpl extends RemoteServiceServlet implements AirlineS
   }
 
   @Override
-  public void passAirline( Flight flight ){
-    airline.addFlight(flight);
+  public void addAirline( String airlineName ){
+    if( this.airline == null )
+    {
+      this.airline = new Airline();
+    }
+    this.airline.setname(airlineName);
+    return;
+  }
+
+  @Override
+  public void addFlight( Flight flight ){
+    if( this.airline == null )
+    {
+      this.airline = new Airline();
+    }
+    this.airline.setname( flight.getFlightName() );
+    this.airline.addFlight( flight );
+    return;
   }
 }

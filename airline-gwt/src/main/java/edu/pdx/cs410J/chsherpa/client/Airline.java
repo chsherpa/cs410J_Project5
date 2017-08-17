@@ -64,7 +64,10 @@ public class Airline extends AbstractAirline<Flight>{
 
     @Override
     public void addFlight(Flight flight ) {
-       addFlightFrom( flight );
+      if( this.airlineName.isEmpty() ){
+        this.airlineName = flight.getFlightName();
+      }
+      addFlightFrom( flight );
     }
 
     @Override
@@ -85,29 +88,43 @@ public class Airline extends AbstractAirline<Flight>{
         return (this.flights != null )?this.flights.get(0).getFlightName():null;
     }
 
+    public void setname( String airlineName )
+    {
+      this.airlineName = airlineName;
+    }
+
     /**
      * Method to add flights object
      * @param flight Flight object containing info for flight
      */
-    public void addFlightFrom( Flight flight ){
+    public boolean addFlightFrom( Flight flight ){
         if( this.flights.isEmpty() )
-            this.flights.add(flight);
+        {
+          this.flights.add(flight);
+        }
         else{
           if (flight.getFlightName().equals(this.flights.get(0).getFlightName()))
           {
-            if( this.flights.size() > 1 )
-            {
-              this.flights.add(flight);
-    //          Arrays.sort(new List[]{flights});
-            }
-            else
-            {
-              this.flights.add(flight);
-            }
+            this.flights.add(flight);
+//            /*
+//            if( this.flights.size() > 1 )
+//            {
+//              this.flights.add(flight);
+//    //          Arrays.sort(new List[]{flights});
+//            }
+//            else
+//            {
+//              this.flights.add(flight);
+//            }
+//            */
           }
           else
-              throw new IllegalArgumentException("Flight Name does not match Airline's Name");
+          {
+            System.out.println("Flight Name does not match Airline's Name");
+            return false;
+          }
+
         }
-        return;
+        return true;
     }
 }

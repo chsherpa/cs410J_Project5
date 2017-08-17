@@ -23,5 +23,7 @@ public interface AirlineServiceAsync {
    */
   void throwDeclaredException(AsyncCallback<Void> async);
 
-  void passAirline( Flight flight, AsyncCallback<Void> async );
+  void addAirline( String airlineName , AsyncCallback<Void> async );
+
+  void addFlight( Flight flight , AsyncCallback<Void> async );
 }
