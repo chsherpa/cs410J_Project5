@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/airline-gwt/airline-gwt (1).iml" filepath="$PROJECT_DIR$/airline-gwt/airline-gwt (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/airline-gwt/target/airline/META-INF/maven/edu.pdx.cs410J.chsherpa/airline-gwt/airline-gwt (2).iml" filepath="$PROJECT_DIR$/airline-gwt/target/airline/META-INF/maven/edu.pdx.cs410J.chsherpa/airline-gwt/airline-gwt (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/airline-gwt/target/airline/META-INF/maven/edu.pdx.cs410J.chsherpa/airline-gwt/airline-gwt (3).iml" filepath="$PROJECT_DIR$/airline-gwt/target/airline/META-INF/maven/edu.pdx.cs410J.chsherpa/airline-gwt/airline-gwt (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/airline-gwt/target/maven-archiver/maven-archiver.iml" filepath="$PROJECT_DIR$/airline-gwt/target/maven-archiver/maven-archiver.iml" />
+    </modules>
+  </component>
+</project>
